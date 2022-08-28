@@ -1,0 +1,9 @@
+#Steps
+
+file cat.jpg			//To check file type
+binwalk cat.jpg			//To check for hidden or embedded files
+strings cat.jpg	 | grep "{"	//Check if flag is in source
+exiftool cat.jpg		//Read metadata
+				//License : cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9 ? - create a text file with the data (text.txt)
+base64 -d text.txt		//Decode Base64 : picoCTF{the_m3tadata_1s_modified} 
+
