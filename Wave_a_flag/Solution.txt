@@ -1,0 +1,7 @@
+#Steps
+
+
+chmod +x warm			//Make the file executable
+./warm				//"Hello user! Pass me a -h to learn what I can do!"
+./warm -h			//picoCTF{b1scu1ts_4nd_gr4vy_6635aa47}
+
