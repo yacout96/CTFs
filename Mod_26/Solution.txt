@@ -1,0 +1,4 @@
+#Steps
+
+./rot13.sh string.txt		//Created a short script to do rot13 (Can Be Found In Dir /PicoCTF-Writeups/ )
+				//picoCTF{next_time_I'll_try_2_rounds_of_rot13_hWqFsgzu}
