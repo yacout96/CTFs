@@ -1,0 +1,8 @@
+#Steps	
+
+
+nc mercury.picoctf.net 49039						//Outputs a bunch of numbers
+nc mercury.picoctf.net 49039  >> ncOutput.txt				//Store Output
+./asciitext ncOutput.txt						//Script to convert ascii characters to text (Found at dir /PicoCTF-Writeups/ )
+									//picoCTF{g00d_k1tty!_n1c3_k1tty!_3d84edc8}
+ 
