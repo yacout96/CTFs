@@ -1,0 +1,8 @@
+#Steps
+
+Download The Files
+
+python3 ende.py -d flag.txt.en		//Used -d for decoding
+					//Input given password 68f88f9368f88f9368f88f9368f88f93
+					//picoCTF{4p0110_1n_7h3_h0us3_68f88f93}
+
