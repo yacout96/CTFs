@@ -1,0 +1,13 @@
+#Steps
+
+
+file static			//File is ELF Executable
+chmod +x static			//To be able to execute file
+./static			//Oh hai! Wait what? A flag? Yes, it's around here somewhere!			
+strings static | grep pico	//picoCTF{d15a5m_t34s3r_ae0b3ef2}
+
+
+#OR
+chmod +x ltdis.sh		//To be able to execute
+./ltdis.sh static		//disassembles and write to file
+				//picoCTF{d15a5m_t34s3r_ae0b3ef2}
