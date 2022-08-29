@@ -1,3 +1,0 @@
-#Steps
-
--I used a simple script I created to convert hex to ascii (Can be found /PicoCTF-Writeups/hexascii.sh)

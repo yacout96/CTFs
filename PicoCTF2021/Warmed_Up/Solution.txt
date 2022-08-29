@@ -1,4 +1,0 @@
-#Steps
-
-
--Used a simple script I created to convert any base to another base (can be found at /PicoCTF-Writeups/basetobase.sh)
