@@ -1,7 +1,7 @@
 #Steps
 
 
--Used a simple scrip I created to reach the root(last) directory and list details along the way
+-Used a simple scrip I created to reach the root(last) directory and list details along the way (can be found /PicoCTF-Writeups/)
 
 file fang-of-haynekhtnamet					//File type is ELF executable
 chmod +x fang-of-haynekhtnamet					//To be able to execute the file
