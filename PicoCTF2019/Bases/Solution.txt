@@ -1,0 +1,7 @@
+#Steps
+
+
+-Added bDNhcm5fdGgzX3IwcDM1 to file text.txt
+
+base64 -d text.txt			//l3arn_th3_r0p35
+					//picoCTF{l3arn_th3_r0p35}
