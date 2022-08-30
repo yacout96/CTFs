@@ -1,0 +1,9 @@
+#Steps
+
+
+file run				//File type is ELF executable
+chmod +x run				//To be able to run file 
+./run                                   //Run this file with only one argument.                                                    
+./run a                                 //Won't you say 'Hello!' to me first?
+./run Hello!                            //The flag is: picoCTF{F1r57_4rgum3n7_be0714da} 
+
