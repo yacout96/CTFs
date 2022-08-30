@@ -1,0 +1,6 @@
+#Steps
+
+
+file run				//File type is ELF executable
+chmod +x run				//To be able to run file 
+./run					//The flag is: picoCTF{U51N6_Y0Ur_F1r57_F113_9bc52b6b}
