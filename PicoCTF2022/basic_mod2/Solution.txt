@@ -1,0 +1,7 @@
+#Steps
+
+
+
+-Created a simple python script to perform this operation (Can be found as script.py at current Dir)
+								//picoCTF{1NV3R53LY_H4RD_C680BDC1} 
+
