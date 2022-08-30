@@ -3,5 +3,7 @@
 
 -Added bDNhcm5fdGgzX3IwcDM1 to file text.txt
 
-base64 -d text.txt			//l3arn_th3_r0p35
-					//picoCTF{l3arn_th3_r0p35}
+Used a simple script I written for base conversion (Can be found /PicoCTF-Writups/basetobase.sh )
+							
+							//l3arn_th3_r0p35
+							//picoCTF{l3arn_th3_r0p35}
