@@ -1,0 +1,7 @@
+#Steps
+
+
+strings drawing.flag.svg			//seem to have each set of characters from flag in each tspan
+strings drawing.flag.svg | grep '{'		//Got half the flag ({ 3 n h 4 n)
+strings drawing.flag.svg | grep '}'		//Got Second Half of the flag	(c 3 d _ a a b 7 2 9 d d })
+-Combine both and remove spaces			//picoCTF{3nh4nc3d_aab729dd}
