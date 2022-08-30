@@ -1,0 +1,36 @@
+#Steps
+
+
+#Sequence of archived files
+file Flag				//Shell Archive File
+sh Flag					//Created flag
+file flag				//ar archive
+ar x flag
+file flag				//cpio archive
+mkdir myDir				//To run cpio from different dir
+cpio -idv < flag
+file flag				//bzip2 compressed data
+bzip2 -d flag				//flag.out
+file flag.out				//gzip compressed data
+mv flag.out flag.gz			//change suffix
+gzip -d flag.gz				
+file flag				//lzip compressed data
+mv flag flag.lz				//change suffix
+lzip -d flag.lz				
+file flag				//LZ4 compressed data
+mv flag flag.lz4 			//change suffix
+lz4 -d flag.lz4 flag
+file flag				//LZMA compressed data
+mv flag flag.lzma			//change suffix
+lzma -d flag.lzma		
+file flag				//lzop compressed data
+mv flag flag.lzop			//change suffix
+lzop -d flag.lzop
+file flag				//lzip compressed data
+lzip -d flag				//flag.out
+file flag.out				//XZ compressed data
+mv flag.out flag.xz			//change suffix
+unxz flag.xz
+file flag				//ASCII text
+cat flag				//7069636f4354467b66316c656e406d335f6d406e3170756c407431306e5f6630725f3062326375723137795f33633739633562617d0a
+-Used a simple script that converts Hex to Ascii		//picoCTF{f1len@m3_m@n1pul@t10n_f0r_0b2cur17y_3c79c5ba}
