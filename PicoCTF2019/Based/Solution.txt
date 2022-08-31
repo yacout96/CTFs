@@ -1,0 +1,6 @@
+#Steps
+
+
+nc jupiter.challenges.picoctf.org 29956
+
+-Used s script I created to convert different bases to ascii/other bases	//picoCTF{learning_about_converting_values_b375bb16}

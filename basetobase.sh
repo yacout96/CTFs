@@ -9,5 +9,10 @@ until [[ $input != "" ]] && [[ $basei != "" ]]  && [[ $baseo != "" ]]; do
   exit 1
 done
 
-#printf '\x$hex'
+if (( $basei == 64 )); then
+	echo $input | base64 -d
+	exit 1
+fi
+
+
 echo "obase=$baseo;ibase=$basei; $input" | bc
