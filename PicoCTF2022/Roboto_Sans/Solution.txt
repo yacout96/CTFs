@@ -1,0 +1,10 @@
+#Steps
+
+url : http://saturn.picoctf.net:65352/
+-Searched for sitemap.xml or robots.txt 		//robots.txt is present
+-Three suspicious strings were in robots.txt		//ZmxhZzEudHh0;anMvbXlmaW
+							//anMvbXlmaWxlLnR4dA==
+							//svssshjweuiwl;oiho.bsvdaslejg
+-Used a python script I created to decode (Can be found at /PicoCTF-Writups/convertBases.py)
+							//	js/myfile.txt'
+http://saturn.picoctf.net:65352/js/myfile.txt		//picoCTF{Who_D03sN7_L1k5_90B0T5_718c9043}                                                                    

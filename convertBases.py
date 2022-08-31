@@ -1,6 +1,7 @@
 import codecs
 import binascii
 import random
+import base64
 
 inputN = input("Enter Input!\n")
 inputB = input("Enter Base Of Input! ('all' to show all possible)\n")
@@ -12,6 +13,10 @@ def ToASCII(OutputL,fOutput):
         x= chr(int(i))
         fOutput.append(x)
     print("ASCII Representation For",''.join(InputL),"is : ",fOutput," As ",''.join(fOutput))
+
+def Decode64(inputX):
+    out=base64.b64decode(inputX)
+    print("Base64 Representation For",inputX,"is : ",out)
 
 def ToDec(OutputL,fOutput):
         print("Decimal Representation For",''.join(InputL),"is : ",OutputL," As ",' '.join(OutputL))
@@ -36,12 +41,6 @@ def ToOct(OutputL,fOutput):
 
 InputL = inputN.split()
 OutputL = []
-
-if (len(InputL)==1) :
-    x = (codecs.decode(InputL[0],"hex")).decode('utf-8')
-    print("ASCII Representation For",InputL[0],"is : ","\033[1;93m",x,"\033[ ")
-    quit()
-
 fOutput=[]
 
 if(inputB.lower()=="all"):
@@ -56,8 +55,19 @@ if(inputB.lower()=="all"):
             except Exception :
                 print("Base ",i, "Failed")
         ToASCII(OutputT,sOutput)
+    Decode64(inputN)
     quit()
 
+
+if (len(InputL)==1) :
+    x = (codecs.decode(InputL[0],"hex")).decode('utf-8')
+    print("ASCII Representation For",InputL[0],"is : ","\033[1;93m",x,"\033[ ")
+    quit()
+
+#From Base64
+if (int(inputB)==64) :
+    Decode64(inputN)
+    quit()
 #Convert to Decimal
 for i in InputL :
     dec = int(i, int(inputB))
@@ -77,6 +87,7 @@ elif (int(outputB)==2) :
 #TO HEX
 elif (int(outputB)==16) :
     ToHex(OutputL,fOutput)
+
 #TO OCT
 elif (int(outputB)==8) :
     ToOct(OutputL,fOutput)
