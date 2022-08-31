@@ -1,0 +1,8 @@
+#Steps
+
+
+-Used https://codewithrockstar.com/online to try run this rockstar code			//Added output numbers in output.tx
+-cat output.txt | tr '\r\n' ' ' > output2.txt						//format as one line containing all numbers
+-Used a script I wrote to convert bases (Can be found /PicoCTF-Writups/convertBases.py) //rrrocknrn0113r
+											//picoCTF{rrrocknrn0113r}
+						
