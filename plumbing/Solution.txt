@@ -1,0 +1,5 @@
+#Steps
+
+
+nc jupiter.challenges.picoctf.org 4427 | grep {			//picoCTF{digital_plumb3r_5ea1fbd7}
+
