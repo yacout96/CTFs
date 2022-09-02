@@ -1,3 +1,4 @@
 #Steps
 
-				//picoCTF{700l1ng_r3qu1r3d_738cac89}
+-Using Ghidra to decompile file and read java base code 
+-In main function we can find a sequence of letters that make the flag		//picoCTF{700l1ng_r3qu1r3d_738cac89}
