@@ -59,15 +59,16 @@ if(inputB.lower()=="all"):
     quit()
 
 
+#From Base64
+if (int(inputB)==64) :
+    Decode64(inputN)
+    quit()
+
 if (len(InputL)==1) :
     x = (codecs.decode(InputL[0],"hex")).decode('utf-8')
     print("ASCII Representation For",InputL[0],"is : ","\033[1;93m",x,"\033[ ")
     quit()
 
-#From Base64
-if (int(inputB)==64) :
-    Decode64(inputN)
-    quit()
 #Convert to Decimal
 for i in InputL :
     dec = int(i, int(inputB))
